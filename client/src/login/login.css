@@ -1,0 +1,17 @@
+.login{
+    display: flex;
+    justify-content: center;
+    margin: auto;  
+    margin-top: 20px;
+}
+
+.loginform{
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30vw;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: #ffff;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

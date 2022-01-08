@@ -1,0 +1,32 @@
+.register{
+    display: flex;
+    justify-content: center;
+    margin: auto;  
+    margin-top: 20px;
+}
+
+.registerform{
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30vw;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: #ffff;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.registerform a{
+    text-decoration:underline;
+    color: rgb(13, 219, 123);
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.alreadyuser{
+     margin-top: 5px;
+}
+
+.danger-text{
+    color:rgb(250, 129, 59)
+}
