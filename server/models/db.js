@@ -10,4 +10,4 @@ module.exports=mongoose.connect('mongodb://localhost:27017/Json-Uploader',{
     else{
         console.log("connected to the db successfully");
     }
-})
+});
