@@ -2,6 +2,8 @@ import "./register.css"
 import {useFormik} from 'formik'
 import {Link} from 'react-router-dom';
 import * as yup from "yup";
+import axios from 'axios';
+import {toast } from 'react-toastify';
 
 const Register = (props) => {
   const formik=useFormik({
@@ -34,6 +36,14 @@ const Register = (props) => {
     }),
     onSubmit:(userdata)=>{
              console.log(userdata);
+             axios.post('http://localhost:5000/api/register',userdata)
+             .then(res=>{
+               toast.success('succesfully registered 👍');
+               props.history.push('/login')
+             })
+             .catch(err=>{
+               toast.error(err.response.data)
+             })
     }
   })
     return ( <div className="register">
