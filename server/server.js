@@ -8,7 +8,11 @@ const router=require('./routes/userRouter');
 
 const morgan=require('morgan');
 
+const cors=require('cors');
+
 require('./models/db');
+
+app.use(cors());
 
 app.use(express.json());
 
