@@ -1,0 +1,23 @@
+.uploader{
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 10px;
+    margin: auto;
+    width: 56vw;
+    margin-top: 40vh;
+}
+
+.uploader button{
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(5, 129, 36);
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input{
+    width: 50vw;
+}
